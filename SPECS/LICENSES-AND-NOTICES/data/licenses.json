@@ -37,11 +37,13 @@
         "docbook5-schemas",
         "dos2unix",
         "dpdk",
+        "dwarves",
         "ebtables",
         "extra-cmake-modules",
         "fipscheck",
         "fuse-zip",
         "gnu-efi",
+        "graphviz",
         "hardening-check",
         "heimdal",
         "hyperv-daemons",
@@ -79,14 +81,19 @@
         "nss_wrapper",
         "oath-toolkit",
         "open-vm-tools",
+        "opensc",
         "openssl",
         "pam_wrapper",
         "p7zip",
         "p11-kit",
+        "pcsc-lite",
+        "pcsc-lite-ccid",
         "perl-App-cpanminus",
         "perl-CPAN-DistnameInfo",
         "perl-CPAN-Meta-Check",
+        "perl-Fedora-VSP",
         "perl-File-pushd",
+        "perl-generators",
         "perl-JSON",
         "perl-local-lib",
         "perl-Module-CPANfile",
@@ -115,6 +122,7 @@
         "setools",
         "sgml-common",
         "socket_wrapper",
+        "softhsm",
         "sos",
         "squashfs-tools",
         "tini",
@@ -143,6 +151,7 @@
         "bmon",
         "bond",
         "bpftrace",
+        "cassandra-cpp-driver",
         "ccache",
         "check-restart",
         "clamav",
@@ -176,6 +185,7 @@
         "libacvp",
         "libconfini",
         "libconfuse",
+        "libdivsufsort",
         "libiothsm-std",
         "libmaxminddb",
         "libuv",
@@ -202,6 +212,7 @@
         "perl-Test-Warnings",
         "perl-Text-Template",
         "pigz",
+        "prebuilt-ca-certificates",
         "prebuilt-ca-certificates-base",
         "python-cachetools",
         "python-cherrypy",
@@ -877,6 +888,13 @@
       "license": "[GPLv2+](https://github.com/rpm-software-management/dnf-plugins-core/blob/master/COPYING)",
       "specs": [
         "dnf-plugins-core"
+      ]
+    },
+    {
+      "origin": "OpenSuse",
+      "license": "Following [openSUSE guidelines](https://en.opensuse.org/openSUSE:Specfile_guidelines#Specfile_Licensing)",
+      "specs": [
+        "gd"
       ]
     }
   ]
